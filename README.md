@@ -19,7 +19,13 @@ https://github.com/jiachengx/static-cid-governance-changelog-pattern
 
 If you use or reference this pattern, please cite:
 
-Hsu, Stephen Chia-Cheng. Static CID Governance Changelog Pattern: A Public Governance Trail Method. Version v1.0.4. 2026. Zenodo. https://doi.org/10.5281/zenodo.21140326
+> Hsu, Stephen Chia-Cheng. *Static CID Governance Changelog Pattern: A Public Governance Trail Method*. Version v1.0.4. 2026. Zenodo. https://doi.org/10.5281/zenodo.21140326
+
+GitHub repository:
+
+```text
+https://github.com/jiachengx/static-cid-governance-changelog-pattern
+```
 
 A `CITATION.cff` file is included for citation metadata.
 
@@ -27,7 +33,7 @@ A `CITATION.cff` file is included for citation metadata.
 
 Static CID Governance Changelog Pattern is a public documentation pattern for turning a conventional `CHANGELOG.md` into a governance artifact.
 
-In ordinary software projects, a changelog usually records what changed between releases. In governance-oriented publishing systems, a changelog can do more. It can become a public governance trail that records why a change was made, what governance boundary it affects, whether it changes reference behavior, whether it changes content identity handling, and whether maintainers must perform migration.
+In ordinary software projects, a changelog usually records what changed between releases. In governance-oriented publishing systems, a changelog can do more. It can become a public governance trail that records why a change was made, what governance boundary it affects, whether it changes reference behavior, whether it changes content identity handling, whether public/private boundaries changed, and whether maintainers must perform migration.
 
 This repository provides a reusable changelog structure for nonprofit, educational, digital archive, public-interest, documentation, and static publishing projects.
 
@@ -45,7 +51,7 @@ This repository focuses only on the **changelog governance pattern**.
 
 It does not implement CID generation, reference verification, public projection, release gates, inventory guarding, Offline Editor core logic, or private registry management.
 
-Instead, it documents how governance-oriented projects can use changelog records to preserve release reasoning, public/private boundary changes, migration notes, and long-term maintenance handoff information.
+Instead, it documents how governance-oriented projects can use changelog records to preserve release reasoning, public/private boundary changes, migration notes, release accountability, and long-term maintenance handoff information.
 
 ## Why this repository exists
 
@@ -59,7 +65,7 @@ For nonprofit organizations, educational projects, digital archives, and public-
 - Did this change affect private governance data?
 - Did this change alter content identity or CID behavior?
 - Did this change affect reference consistency?
-- Does this release require migration?
+- Did this release require migration?
 - What should future maintainers know before modifying this area?
 
 A governance changelog helps answer these questions.
@@ -107,7 +113,7 @@ Creative Commons Attribution-ShareAlike 4.0 International
 SPDX-License-Identifier: CC-BY-SA-4.0
 ```
 
-This means you may share and adapt the material, including for nonprofit, educational, public-interest, and documentation use, provided that you give appropriate attribution and distribute adaptations under compatible share-alike terms.
+This means you may share and adapt the material, including for nonprofit, educational, public-interest, documentation, research, and governance use, provided that you give appropriate attribution and distribute adaptations under compatible share-alike terms.
 
 The full license text is provided under:
 
@@ -115,21 +121,35 @@ The full license text is provided under:
 LICENSES/CC-BY-SA-4.0.txt
 ```
 
-## Suggested attribution
+## Attribution suggestion
 
-When adapting this pattern, please attribute:
+Suggested attribution:
 
 ```text
 Static CID Governance Changelog Pattern
 Author: Stephen Chia-Cheng Hsu
-GitHub: https://github.com/jiachengx/static-cid-governance-changelog-pattern
+License: CC BY-SA 4.0
+Repository: https://github.com/jiachengx/static-cid-governance-changelog-pattern
+DOI: https://doi.org/10.5281/zenodo.21140326
 ```
 
-Recommended citation:
+Citation-friendly form:
 
 ```text
-Hsu, Stephen Chia-Cheng. Static CID Governance Changelog Pattern: A Public Governance Trail Method. Version v1.0.2. 2026. GitHub: https://github.com/jiachengx/static-cid-governance-changelog-pattern
+Hsu, Stephen Chia-Cheng. Static CID Governance Changelog Pattern: A Public Governance Trail Method. Version v1.0.4. 2026. Zenodo. https://doi.org/10.5281/zenodo.21140326
 ```
+
+## No endorsement
+
+Use of this material does not imply endorsement, sponsorship, certification, or approval by Stephen Chia-Cheng Hsu.
+
+Attribution should not be written in a way that suggests the author endorses a modified version, downstream implementation, organization, product, service, or publication unless separately agreed in writing.
+
+## Trademark and naming
+
+This license does not grant trademark rights, name rights, logo rights, or branding rights.
+
+The project name may be referenced for attribution and citation, but it must not be used in a way that suggests official endorsement, certification, or authorship of modified downstream work.
 
 ## Core idea
 
@@ -266,27 +286,27 @@ Explain what future maintainers should know before changing related files or rul
 ## Example governance entry
 
 ```markdown
-## [1.0.2] - 2026-07-02
+## [1.0.4] - 2026-07-02
 
 ### Summary
 
-Updated public citation metadata and author-name formatting.
+Synchronized repository metadata, README citation text, and DOI reference after Zenodo archival.
 
 ### Governance reason
 
-The change was made to improve citation compatibility for GitHub, Zenodo, citation parsers, and academic reuse.
+The change was made to ensure that public citation, release documentation, and repository metadata all point to the same archived public reference version.
 
 ### Identity impact
 
-No change to the governance changelog model.
+No change to the changelog governance model.
 
 ### Reference impact
 
-No change to reference behavior.
+Updated public citation references to use the Zenodo DOI as the formal citation anchor.
 
 ### Public/private boundary impact
 
-No boundary change.
+No private registry records, credentials, operational logs, incident-specific records, or organization-specific content were added.
 
 ### Release-gate impact
 
@@ -294,11 +314,11 @@ No release-gate logic is implemented in this repository.
 
 ### Migration notes
 
-Users may update citations from Stephen Hsu (許家誠) to Stephen Chia-Cheng Hsu.
+No migration required.
 
 ### Handoff notes
 
-Future releases should keep citation metadata romanized and place the Chinese name in README or NOTICE rather than in `CITATION.cff` author fields.
+Future maintainers should keep README, CITATION.cff, release notes, and Zenodo DOI references synchronized after each public release.
 ```
 
 ## Changelog as governance trail
@@ -325,8 +345,32 @@ Every governance changelog should follow this rule:
 ```text
 Public changelog entries may describe governance changes, release reasoning, public output behavior, migration requirements, and validation scope.
 
-Public changelog entries must not expose credentials, secrets, private registry records, organization-specific restricted content, internal account recovery workflows, sensitive incident details, or private operational logs.
+Public changelog entries must not expose credentials, secrets, private registry records, organization-specific restricted content, sensitive incident details, account recovery flows, or internal operational logs.
 ```
+
+## Excluded content
+
+This repository does not include and does not license:
+
+- private registries;
+- production release logs;
+- organization-specific content;
+- credentials or secrets;
+- deployment secrets;
+- account recovery workflows;
+- internal account policies;
+- incident-specific records;
+- private governance logs;
+- third-party materials not owned by the author;
+- project-specific implementation records from any real organization.
+
+These exclusions are intentional. This repository is a public documentation pattern, not a private operational record, production incident log, credential repository, or organization-specific governance archive.
+
+## Public/private boundary
+
+Public changelog examples may describe governance patterns, release reasoning, migration notes, validation scope, and public/private boundary principles.
+
+They must not expose credentials, secrets, private registry data, restricted organization-specific content, sensitive incident details, account recovery flows, or internal operational logs.
 
 ## Relationship to FHIR
 
@@ -418,15 +462,30 @@ CITATION.cff
 Recommended citation:
 
 ```text
-Hsu, Stephen Chia-Cheng. Static CID Governance Changelog Pattern: A Public Governance Trail Method. Version v1.0.2. 2026. GitHub. https://github.com/jiachengx/static-cid-governance-changelog-pattern
+Hsu, Stephen Chia-Cheng. Static CID Governance Changelog Pattern: A Public Governance Trail Method. Version v1.0.4. 2026. Zenodo. https://doi.org/10.5281/zenodo.21140326
 ```
 
-## Release
+`CITATION.cff` should remain synchronized with the current public release version and DOI.
+
+Recommended `CITATION.cff` values:
+
+```yaml
+version: "1.0.4"
+doi: "10.5281/zenodo.21140326"
+```
+
+## Release and DOI
 
 Current public reference release:
 
 ```text
-v1.0.2
+v1.0.4
+```
+
+Zenodo DOI:
+
+```text
+https://doi.org/10.5281/zenodo.21140326
 ```
 
 GitHub releases:
@@ -440,6 +499,16 @@ Latest release:
 ```text
 https://github.com/jiachengx/static-cid-governance-changelog-pattern/releases/latest
 ```
+
+## License notice for adaptations
+
+If you adapt this repository, please preserve a clear attribution notice such as:
+
+```text
+This work is adapted from Static CID Governance Changelog Pattern by Stephen Chia-Cheng Hsu, licensed under CC BY-SA 4.0.
+```
+
+Adapted versions should clearly identify their own changes and should not present modified content as the original author’s unchanged work.
 
 ## Trademark and attribution notice
 
