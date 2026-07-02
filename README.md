@@ -4,7 +4,8 @@
 **Chinese Name:** 許家誠  
 **Contact:** chiacheng.hsu@owasp.org  
 **GitHub:** https://github.com/jiachengx  
-**Public reference version:** v1.0.2  
+**Public reference version:** v1.0.4  
+**DOI:** https://doi.org/10.5281/zenodo.21140326  
 
 ## GitHub repository
 
