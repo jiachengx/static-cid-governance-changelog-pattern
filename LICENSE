@@ -4,18 +4,90 @@ Copyright © 2026 Stephen Chia-Cheng Hsu.
 Chinese name: 許家誠  
 Contact: chiacheng.hsu@owasp.org
 
-Unless otherwise stated, this repository is licensed under Creative Commons Attribution-ShareAlike 4.0 International (`CC BY-SA 4.0`).
+Unless otherwise stated, the copyrightable materials in this repository are licensed under the **Creative Commons Attribution-ShareAlike 4.0 International License** (`CC BY-SA 4.0`).
 
-You may share and adapt the material, including for nonprofit, educational, public-interest, and documentation use, provided that you give appropriate attribution and distribute adaptations under compatible share-alike terms.
+The full license text is provided in:
 
-The full license text is provided in `LICENSES/CC-BY-SA-4.0.txt`.
+```text
+LICENSES/CC-BY-SA-4.0.txt
+```
+
+## Scope
+
+This repository contains a public governance documentation pattern for changelog-based release accountability, nonprofit maintenance handoff, static publishing governance, and public/private boundary documentation.
+
+The license applies to copyrightable materials in this repository, including documentation, templates, examples, changelog structures, release-note patterns, and explanatory text, unless a file explicitly states otherwise.
+
+## Permissions
+
+Under `CC BY-SA 4.0`, you may share and adapt the licensed materials, including for nonprofit, educational, public-interest, documentation, research, and governance use, provided that you follow the license terms.
+
+In general, this means you should:
+
+- give appropriate attribution;
+- indicate if changes were made;
+- provide a link or reference to the license;
+- distribute adaptations under the same or a compatible share-alike license.
 
 ## Attribution suggestion
 
+Suggested attribution:
+
 ```text
-Static CID Governance Changelog Pattern, Stephen Chia-Cheng Hsu, CC BY-SA 4.0.
+Static CID Governance Changelog Pattern
+Author: Stephen Chia-Cheng Hsu
+License: CC BY-SA 4.0
+Repository: https://github.com/jiachengx/static-cid-governance-changelog-pattern
 ```
+
+Citation-friendly form:
+
+```text
+Hsu, Stephen Chia-Cheng. Static CID Governance Changelog Pattern: A Public Governance Trail Method. Version v1.0.2. 2026. GitHub: https://github.com/jiachengx/static-cid-governance-changelog-pattern
+```
+
+## No endorsement
+
+Use of this material does not imply endorsement, sponsorship, certification, or approval by Stephen Chia-Cheng Hsu.
+
+Attribution should not be written in a way that suggests the author endorses a modified version, downstream implementation, organization, product, service, or publication unless separately agreed in writing.
+
+## Trademark and naming
+
+This license does not grant trademark rights, name rights, logo rights, or branding rights.
+
+The project name may be referenced for attribution and citation, but it must not be used in a way that suggests official endorsement, certification, or authorship of modified downstream work.
 
 ## Excluded content
 
-This repository does not include private registries, production release logs, organization-specific content, credentials, deployment secrets, account recovery workflows, or incident-specific records.
+This repository does not include and does not license:
+
+- private registries;
+- production release logs;
+- organization-specific content;
+- credentials or secrets;
+- deployment secrets;
+- account recovery workflows;
+- internal account policies;
+- incident-specific records;
+- private governance logs;
+- third-party materials not owned by the author;
+- project-specific implementation records from any real organization.
+
+These exclusions are intentional. This repository is a public documentation pattern, not a private operational record, production incident log, credential repository, or organization-specific governance archive.
+
+## Public/private boundary
+
+Public changelog examples may describe governance patterns, release reasoning, migration notes, validation scope, and public/private boundary principles.
+
+They must not expose credentials, secrets, private registry data, restricted organization-specific content, sensitive incident details, account recovery flows, or internal operational logs.
+
+## License notice for adaptations
+
+If you adapt this repository, please preserve a clear attribution notice such as:
+
+```text
+This work is adapted from Static CID Governance Changelog Pattern by Stephen Chia-Cheng Hsu, licensed under CC BY-SA 4.0.
+```
+
+Adapted versions should clearly identify their own changes and should not present modified content as the original author’s unchanged work.
