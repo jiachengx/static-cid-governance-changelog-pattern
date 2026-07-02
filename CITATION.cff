@@ -1,0 +1,21 @@
+cff-version: 1.2.0
+message: "If you use this changelog pattern, please cite it as below."
+title: "Static CID Governance Changelog Pattern: A Public Governance Trail Method"
+type: generic
+authors:
+  - family-names: Hsu
+    given-names: Stephen Chia-Cheng
+email: "chiacheng.hsu@owasp.org"
+version: "1.0.2"
+date-released: "2026-07-02"
+license: "CC-BY-SA-4.0"
+repository-code: "https://github.com/jiachengx/static-cid-governance-changelog-pattern"
+abstract: "A governance-focused changelog pattern for static publishing, nonprofit maintenance, digital archives, and public release accountability."
+keywords:
+  - "changelog"
+  - "governance"
+  - "nonprofit"
+  - "digital archives"
+  - "release notes"
+  - "public governance trail"
+  - "static publishing"

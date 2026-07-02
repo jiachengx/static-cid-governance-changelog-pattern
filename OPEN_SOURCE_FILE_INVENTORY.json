@@ -1,0 +1,106 @@
+{
+  "name": "static-cid-governance-changelog-pattern",
+  "version": "v1.0.2",
+  "author": "Stephen Chia-Cheng Hsu",
+  "contact": "chiacheng.hsu@owasp.org",
+  "github": "https://github.com/jiachengx/static-cid-governance-changelog-pattern",
+  "file_count_excluding_inventory_files": 19,
+  "items": [
+    {
+      "path": ".gitignore",
+      "size": 42,
+      "sha256": "1cd5ab051d1977eaf7ea2185e0262324a226d480deda132717b937ce4942afdd"
+    },
+    {
+      "path": "CHANGELOG.md",
+      "size": 1707,
+      "sha256": "00d8c1114118b395660eae9a7590dc8d84176b2ab57392616db77d7b4ad30fa7"
+    },
+    {
+      "path": "CITATION.cff",
+      "size": 754,
+      "sha256": "2bcd7676c8fe5e012526d4953940a48e7cb2c46dd16195bc245a48cf0ea238cd"
+    },
+    {
+      "path": "COPYRIGHT",
+      "size": 130,
+      "sha256": "6ace972aaf915fc57b88ed5f178cb4f3873bf89e9851f2315496ddcab686f566"
+    },
+    {
+      "path": "GITHUB_UPLOAD_GUIDE.md",
+      "size": 1301,
+      "sha256": "e3d180e3e8b6dc1829748d9cefb1aee390642db529fd31533bc46876ce6be51d"
+    },
+    {
+      "path": "GOVERNANCE_CHANGELOG.md",
+      "size": 1462,
+      "sha256": "11b848c25dc2a72c7bfe2382058b600c1094d97d4dc0dadeaa2e912d1d0f7da2"
+    },
+    {
+      "path": "LICENSE.md",
+      "size": 861,
+      "sha256": "f3fc0bc2e173d44e7400bb1669a6cda20db57f1825d06f3c0493a303d9bf4823"
+    },
+    {
+      "path": "LICENSES/CC-BY-SA-4.0.txt",
+      "size": 434,
+      "sha256": "fee3429074984a85605f01eacd7754afa179447a7a11b5ad7fbc2f5a73d03919"
+    },
+    {
+      "path": "NOTICE",
+      "size": 497,
+      "sha256": "a50b81e75b208f2a78bece1b0021eb8a2b6f98ef1717583e211babb04438802c"
+    },
+    {
+      "path": "README.md",
+      "size": 3026,
+      "sha256": "f33839fd92150495702289771dd07cb91fe96256944b45d59033b956c564aa09"
+    },
+    {
+      "path": "docs/WHY_THIS_PROJECT.md",
+      "size": 945,
+      "sha256": "df731aaadcbe759fbc40832a32d5ccce9df504c8c00e65f6f8b2af2bbc4d9636"
+    },
+    {
+      "path": "docs/changelog-as-governance-trail.md",
+      "size": 777,
+      "sha256": "eef79449aede595649a0ac9c9e4e8f31ae4415c0af728f69071754d4b3b09be1"
+    },
+    {
+      "path": "docs/nonprofit-maintenance-handoff.md",
+      "size": 617,
+      "sha256": "6cb852d7aad5de22270f2a1cf94c45b81d8cb787bedcd110e4082c5fc6fb7702"
+    },
+    {
+      "path": "docs/public-private-boundary-notes.md",
+      "size": 656,
+      "sha256": "824f1160f0e8932f6023850d53d086f95ada21f99a3f4e98c35f90e39d3719b8"
+    },
+    {
+      "path": "docs/reference-consistency-release-notes.md",
+      "size": 492,
+      "sha256": "618dd5a8136fe5885bbf1303c0f0ddb41de6b4b9654b4b21c7c091fd5bcfe42e"
+    },
+    {
+      "path": "examples/example-v1.0.0.md",
+      "size": 1010,
+      "sha256": "b436cf978c4cbfa2c569f5332ebdb4a069b7dd91c66b37dffeba0dd796269751"
+    },
+    {
+      "path": "examples/example-v1.0.1.md",
+      "size": 903,
+      "sha256": "a6fc4bd3b4b5a68641430253460e306f5ed1ec5dd3935de0bd1d7fa212f6649f"
+    },
+    {
+      "path": "templates/CHANGELOG_TEMPLATE.md",
+      "size": 828,
+      "sha256": "dcd0f2f133e4cfa53c2c287e54f7f0f963dd61bddcf946b3d5a8d07fca1929e3"
+    },
+    {
+      "path": "templates/RELEASE_NOTE_TEMPLATE.md",
+      "size": 896,
+      "sha256": "e7c9b5178ce60c3b2897b862718209eb381b22d49307d381cffe5487e27bc936"
+    }
+  ],
+  "chinese_name": "許家誠"
+}
