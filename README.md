@@ -19,7 +19,7 @@ https://github.com/jiachengx/static-cid-governance-changelog-pattern
 
 If you use or reference this pattern, please cite:
 
-> Hsu, Stephen Chia-Cheng. *Static CID Governance Changelog Pattern: A Public Governance Trail Method*. Version v1.0.2. 2026. GitHub: https://github.com/jiachengx/static-cid-governance-changelog-pattern
+Hsu, Stephen Chia-Cheng. Static CID Governance Changelog Pattern: A Public Governance Trail Method. Version v1.0.4. 2026. Zenodo. https://doi.org/10.5281/zenodo.21140326
 
 A `CITATION.cff` file is included for citation metadata.
 
